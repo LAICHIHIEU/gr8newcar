@@ -1,0 +1,575 @@
+@import "compass/css3";
+
+
+@media screen and (max-width:430px) {
+    #hero{
+        background-image: url(../img/hero-sp.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 409px;
+    }
+    .header-contact{
+        font-size: 12px;
+    }
+    /*header {
+        height: 70px;
+    }*/
+    .column{
+        flex-direction: column;
+    }
+    #price{
+        padding: 50px 0;
+    }
+    .inner{
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .sp-block{
+        display: block;
+    }
+    .sp-none{
+        display: none;
+    }
+    /*.logo img{
+        width: 30%!important;
+        height: auto!important;
+    }*/
+    .swiper img{
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .swiper .works-list-item{
+        max-width: 300px;
+        margin: 20px auto;
+    }
+    #cta{
+        margin: 0 auto;
+    }
+    section#faq{
+        padding-top: 0;
+    }
+    #price p {
+        font-size: 1.1rem;
+    }
+    #shop dt {
+        font-size: 1.3rem;
+    }
+    #shop dd {
+        font-size: 1rem;
+        line-height: 2;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after {
+        color: #fff;
+    }
+    .footer_first ul{
+        text-align: center;
+    }
+}
+@media (min-width: 769px) {
+    .scracth_item {
+      width: 24%;
+      margin: 0 5px;
+    }
+    .scracth_item .car-title {
+      font-size: 15px;
+      text-align: left;
+    }
+    .steps_car-price-list li dd {
+      font-size: 2rem;
+    }
+    .sp-content {
+        display: none;
+    }
+    .page-content-custom {
+        margin-top: 160px;
+    }
+}
+
+@media (max-width: 768px) {
+    .scracth_item {
+      width: 48%;
+      margin:6px;
+      text-align: center;
+    }
+    .scracth_item .car-title {
+      font-size: 0.8rem;
+    }
+    .scracth_item li{
+        font-size: 12px;
+    }
+    .scracth_item-price {
+        font-size: 1rem;
+    }
+    .scracth_item .btn1 button{
+    	margin: 10px auto;
+    }
+    .steps_car {
+        width: 60%;
+        margin: 0 auto!important;
+        padding: 50px 0;
+    }
+    .color_box {
+        width: 48%;
+    }
+    .color_layer{
+        height: 46px;
+    }
+    .color_box p.txt-center {
+        font-size: 14px;
+    }
+    .color_box p.price {
+        font-size: 14px;
+    }
+    .sp-list {
+        width: 100%;
+        margin: 40px 0;
+    }
+    .steps_car-price-list li dd {
+      font-size: 1.4rem;
+    }
+    .sp-list dt {
+        font-size: 14px;
+    }
+    .option-box {
+        width: 48%;
+    }
+    p.option-tt {
+        font-size: 13px;
+        height: 66px;
+    }
+    .tab {
+        display: inline-flex;
+        margin-top: 38px;
+    }
+    button.tablinks {
+        width: 50%;
+    }
+    button.tablinks span {
+        font-size: 13px;
+    }
+    .option-box {
+        padding: 0;
+    }
+    #sp-menu-all {
+        flex-direction: column;
+        text-align: left;
+    }
+    .logo {
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+    }
+    ul#sp-menu-all {
+        background-color: #000;
+        padding: 30px 0;
+        height: 100vh;
+    }
+    /*ul#sp-menu-all li {
+        margin: 10px 0px;
+        padding: 0 25px;
+    }*/
+    ul#sp-menu-all li a {
+        color: #fff;
+        /*font-size: 15px;*/
+    }
+    ul.sp-sub-menu li {
+        border-bottom: 1px solid #737373;
+    }
+    ul.sp-sub-menu li a {
+        font-size: 13px;
+    }
+
+	ul.sp-sub-menu {
+        margin-bottom: 22px;
+    }
+    .hamburger-menu {
+        display: inline-block;
+        padding: 15px 10px 2px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      .menu-item {
+        background: black;
+        display: block;
+        height: 2px;
+        margin: 0 0 10px;
+        transition: all 0.3s ease-in-out;
+        width: 35px;
+      }
+        
+      &.open {
+
+        .menu-item {
+          margin: 0 0 5px;
+
+          &:first-child {
+            transform: rotate(45deg);
+            transform-origin: 10px;
+          }
+          &:nth-child(2) {
+            opacity: 0;
+          }
+          &:nth-child(3) {
+            transform: rotate(-45deg);
+            transform-origin: 8px;
+          }
+        }
+      }
+    }
+
+    .pc-content {
+        display: none;
+    }
+    .logo-footer img {
+        width: 36%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .footer-menu {
+        padding: 0 20px;
+        margin-top: 40px;
+    }
+    .footer-menu ul li {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .footer-menu ul li a {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 100;
+    }
+    .sp-footer {
+        background-color: #4c4c4c;
+        padding: 30px 20px;
+    }
+    img.big-logo-sp {
+        width: 26%;
+    }
+    img.small-logo-sp {
+        width: 18%;
+    }
+    h1.-flex.al-center {
+        padding: 20px 0px 20px 10px;
+    }
+    .p-swiper__container.-main{
+        margin-top: 72px;
+    }
+    
+    .swiper-pagination {
+        display: none;
+    }
+    .p-swiper__container.-main {
+        margin-bottom: 0px;
+    }
+    .sp-content-left {
+	    width: 90%;
+	}
+	.sp-menu-icon {
+	    width: 10%;
+	}
+	.top_links p {
+        font-size: 14px;
+    }
+    .top_links h2 {
+        font-size: 1.2rem;
+    }
+    .top_links_text {
+        margin-bottom: 1rem;
+    }
+    .top_links_text-link p {
+        padding-top: 8px;
+        font-size: 14px;
+    }
+    .top_links_text-link {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .ipad-content {
+    	margin: 5px;
+    }
+    .footer-menu {
+		justify-content: center;
+	}
+	.footer-menu ul {
+	    margin: 0 25px;
+	}
+	.page-content-custom {
+        margin-top: 90px;
+    }
+    .scracth_item .car-title {
+	    height: 36px;
+	}
+}
+
+@media (min-width: 468px) {
+    .logo h1 {
+      padding-top: 3.6875rem;
+      padding-bottom: 1rem;
+    }
+    .logo {
+      padding-left: 1.375rem;
+    }
+    main{
+      padding: 50px 20px;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    .top_links:first-child .top_links_text-link{
+      width: 48%;
+    }
+    .btn1 button {
+      padding: 15px 30px;
+    }
+    .btn1 button::before {
+      left: 16px;
+      top: 43%;
+    }
+    .post-list-item li a {
+        display: inline-flex;
+        width: 100%;
+    }
+    .news-img {
+        width: 30%;
+    }
+    .news-text {
+        width: 70%;
+        margin: 10px;
+    }
+    .post-list-detail {
+        margin-bottom: 80px;
+    }
+    .post-list-item ul li {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #dcdcdc;
+        padding: 20px 0px;
+    }
+    .banner-page-all {
+        margin-top: 143px;
+        background-color: #dcdcdc;
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 468px) {
+    img.big-logo-sp {
+        width: 26%;
+    }
+    img.small-logo-sp {
+        width: 18%;
+    }
+    h1.-flex.al-center {
+        padding: 20px 0px 20px 10px;
+    }
+    .p-swiper__container.-main{
+        margin-top: 72px;
+    }
+    
+    .swiper-pagination {
+        display: none;
+    }
+    .p-swiper__container.-main {
+        margin-bottom: 0px;
+    }
+    main {
+        padding: 30px 5px;
+    }
+    .btn1 button {
+        font-size: 12px;
+        padding: 8px 24px;
+    }
+    .btn1 button::before{
+        left: 5px;
+        top: 12px;
+    }
+    .news-list li a{
+        font-size: 14px;
+    }
+    .news-list li span{
+        font-size: 14px;
+    }
+    .news-list li {
+        padding: 10px 0;
+    }
+    .top_links {
+        margin-top: 20px;
+    }
+    main.steps {
+        margin-top: 50px;
+    }
+    .btn1.btn-sp button {
+        font-size: 11px;
+        padding: 8px 17px;
+    }
+    .scracth_item .car-title {
+        height: 52px;
+    }
+    p.tt-spec {
+        font-size: 14px;
+        height: 66px;
+        line-height: 15px;
+    }
+    p.price-custom {
+        font-size: 13px;
+    }
+    .sp-content-left {
+	    width: 84%;
+	}
+	.sp-menu-icon {
+	    width: 16%;
+	}
+	.footer-menu {
+		justify-content: space-between;
+	}
+	.footer-menu ul {
+	    margin: 0;
+	}
+	.page-content-custom {
+        margin-top: 25px;
+    }
+    .scracth_item {
+      width: 46%;
+      margin:6px;
+    }
+    .steps_car {
+	    width: 70%;
+	    margin: 0 auto !important;
+	    padding: 30px 0;
+	}
+	.step_btn button {
+		font-size: 14px;
+        font-weight: 600;
+	}
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	.respon-content {
+	    display: inline-flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+	.steps_car {
+	    width: 47%;
+	    margin-right: 5%;
+	}
+	.steps_car-price-list {
+	    width: 53%;
+	}
+	.respon-content-list {
+	    display: inline-flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.scracth_item {
+	    width: 31%;
+	    margin: 0 8px;
+	}
+	.btn1 button {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1208px){
+	.steps_car {
+	    margin-right: 5%;
+	}
+}
+
+.mobile-header-nav {
+  background-color: #222222;
+  display: none; 
+  list-style: none;  
+  margin: 0; 
+  padding: 0;
+  
+  li {
+    a {
+      color: white;
+      display: block;
+      padding: 8px 0;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out;
+      
+      /*&:hover {
+        background-color: lighten(#222222, 5%);
+      }*/
+      /*&:hover ul.sp-sub-menu {
+      	display: block;
+      	position: absolute;
+		top: 0;
+		left: 0;
+		height: 100px;
+      }*/
+    }
+  }
+}
+.content-top-menu-sp a span {
+    background-color: #fff;
+    padding: 10px 50px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.content-top-menu-sp p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 21px;
+}
+.content-top-menu-sp {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+li.main-menu{
+	position: relative;
+	transition: 0.3s;
+}
+li.main-menu a:after {
+	content: "";
+    width: 0;
+    height: 0;
+    border-width: 6px 5px;
+    border-style: solid;
+    border-color: #eee transparent transparent transparent;
+    position: absolute;
+    top: 15px;
+    right: 9px;
+}
+.guredo-list select {
+    width: 100%;
+    font-size: 14px;
+    height: 34px;
+    border: 1px solid #8b8b8b;
+    border-radius: 3px;
+    color: #000;
+}
+.guredo-list {
+    padding: 10px 0 0 0;
+    width: 88%;
+}
+.guredo-list select:focus-visible {
+    outline: none;
+}
+/*ul.sp-sub-menu {
+    display: none;
+    top: 10px;
+	width: 100%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+li.main-menu:hover ul.sp-sub-menu{
+	display: block;
+
+}*/
